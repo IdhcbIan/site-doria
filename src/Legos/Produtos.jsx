@@ -4,6 +4,9 @@ import Header from './Header'
 import OatsImage from '/src/assets/Prod/Oats.jpg'
 import FavoImage from '/src/assets/Prod/Favo.jpg'
 import ChaImage from '/src/assets/Prod/Cha.jpg'
+import TiaSoniaImage from '/src/assets/Brands/Tia_Sonia.png'
+import VitaminLifeImage from '/src/assets/Brands/Vitamin_Life.svg'
+import ApisNutri from '/src/assets/Brands/Apis_Nutri.jpeg'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -73,6 +76,7 @@ const BrandsSlider = styled.div`
   margin: 2rem 0;
   background: #f8f8f8;
   border-radius: 15px;
+  text-align: center;
 
   &::-webkit-scrollbar {
     height: 8px;
@@ -90,18 +94,24 @@ const BrandsSlider = styled.div`
 `
 
 const BrandItem = styled.div`
-  display: inline-block;
+  display: inline-flex;
   width: 200px;
   height: 100px;
   margin: 0 1rem;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
   color: #068743;
+  vertical-align: middle;
+
+  img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+  }
 `
 
 const PageTitle = styled.h1`
@@ -128,7 +138,7 @@ function Produtos() {
       image: OatsImage
     },
     {
-      title: "Chá Oolong",
+      title: "Chá Oolong", 
       description: "Chá tradicional chinês rico em antioxidantes",
       image: ChaImage
     },
@@ -148,12 +158,14 @@ function Produtos() {
         <PageTitle>Nossos Produtos</PageTitle>
         
         <BrandsSlider>
-          <BrandItem>Marca 1</BrandItem>
-          <BrandItem>Marca 2</BrandItem>
-          <BrandItem>Marca 3</BrandItem>
-          <BrandItem>Marca 4</BrandItem>
-          <BrandItem>Marca 5</BrandItem>
-          <BrandItem>Marca 6</BrandItem>
+          <BrandItem>Urbano</BrandItem>
+          <BrandItem>Mandubim</BrandItem>
+          <BrandItem>Aminna</BrandItem>
+          <BrandItem>Belive</BrandItem>
+          <BrandItem>A tal da castanha</BrandItem>
+          <BrandItem><img src={TiaSoniaImage} alt="Tia Sônia" /></BrandItem>
+          <BrandItem><img src={VitaminLifeImage} alt="Vitamin Life" /></BrandItem>
+          <BrandItem><img src={ApisNutri} alt="Apis Nutri" /></BrandItem>
         </BrandsSlider>
 
         <ProductGrid>

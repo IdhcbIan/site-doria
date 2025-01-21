@@ -131,24 +131,13 @@ function Sobre() {
       <MainContent>
         <h2>Nossa História</h2>
         <p>
-          A Doria Produtos Naturais nasceu do desejo de proporcionar uma vida mais saudável para nossa comunidade. 
-          Há anos, temos sido referência em produtos naturais e orgânicos em nossa região, sempre priorizando 
-          a qualidade e a procedência de nossos produtos.
+          No dia 13 de janeiro de 2006, Luiz Roberto Rocha Dória, com 50 anos de idade, até então vendedor externo a nível de Brasil, migrou da cidade de São Paulo, capital, para a cidade de São Carlos, onde adquiriu a antiga loja de produtos naturais NATURALIE, sucessora do EMPÓRIO DO ARROZ INTEGRAL.
         </p>
-
-        <h2>Nossa Missão</h2>
         <p>
-          Nosso compromisso é oferecer produtos naturais de alta qualidade, promovendo saúde e bem-estar 
-          através de alternativas naturais e sustentáveis. Acreditamos que uma vida saudável começa com 
-          escolhas conscientes, e estamos aqui para auxiliar você nessa jornada.
+          Neste 19 anos, especializamos em comercializar produtos naturais, sustentáveis, de procedência ilibada, praticando os menores preços sustentáveis e tendo a maior variedade possível de produtos.
         </p>
-
-        <h2>Nossos Valores</h2>
         <p>
-          • Qualidade e procedência garantida em todos os produtos<br/>
-          • Compromisso com a sustentabilidade<br/>
-          • Atendimento personalizado e orientação especializada<br/>
-          • Respeito ao meio ambiente e à saúde de nossos clientes
+          Pautando em informações fidedignas, baseado em profissionais de formação acadêmica e ou de instituições de reconhecimento acadêmico mundial.
         </p>
 
         <h2>Nossa Localização</h2>
